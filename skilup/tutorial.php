@@ -38,24 +38,38 @@ elseif($var % 3 == 0)
 else{
         echo "Not Divisible by either 2 or 3  ";
     }*/
-$level = 3;  
-switch($level){
-    case 1:
-        echo "You are playing easy level";
-        break; 
+// $level = 3;  
+// switch($level){
+//     case 1:
+//         echo "You are playing easy level";
+//         break; 
 
-    case 2:
-        echo "You are playing Moderate level";
-        break;    
+//     case 2:
+//         echo "You are playing Moderate level";
+//         break;    
 
-    case 3:
-         echo "You are playing Hard level";
-        break;
+//     case 3:
+//          echo "You are playing Hard level";
+//         break;
 
-    case 4:
-        echo "You are playing Extreme level";
-        break;
+//     case 4:
+//         echo "You are playing Extreme level";
+//         break;
     
-    default:
-    echo "invalid input";    
-}  
+//     default:
+//     echo "invalid input";    
+// }  
+
+//loop
+//While
+$var = 11;
+//  while($var <= 10){
+   
+//      echo "Number:".$var.PHP_EOL ;
+//      $var++;   
+//  }
+//Do while
+for($i=0;$i < 10; $i++)
+{
+    echo "Number :".$i.PHP_EOL;
+}
