@@ -36,5 +36,5 @@ elseif($var % 3 == 0)
     echo "Divisible by 3";
 }
 else{
-        echo "The Condition did not match";
+        echo "Not Divisible by either 2 or 3  ";
     }
