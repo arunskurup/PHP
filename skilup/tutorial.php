@@ -69,7 +69,12 @@ $var = 11;
 //      $var++;   
 //  }
 //Do while
-for($i=0;$i < 10; $i++)
-{
+function name(){
+    for($i=0;$i < 10; $i++)
+   {
     echo "Number :".$i.PHP_EOL;
+   }
+
 }
+
+name();
