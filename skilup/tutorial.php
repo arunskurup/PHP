@@ -16,14 +16,14 @@ echo "<h1>".$float."<h1>";
 //  echo laptop[2];
 
 //if
-$var =3;
+// $var =3;
 // if ($var > 7)
 // {
 //     echo "The Condition match";
 // }else{
 //     echo "The Condition did not match";
 // }
-if ($var % 2 == 0 && $var % 3 ==0)
+/*if ($var % 2 == 0 && $var % 3 ==0)
 {
     echo "Divisible by both";
 }
@@ -37,4 +37,25 @@ elseif($var % 3 == 0)
 }
 else{
         echo "Not Divisible by either 2 or 3  ";
-    }
+    }*/
+$level = 3;  
+switch($level){
+    case 1:
+        echo "You are playing easy level";
+        break; 
+
+    case 2:
+        echo "You are playing Moderate level";
+        break;    
+
+    case 3:
+         echo "You are playing Hard level";
+        break;
+
+    case 4:
+        echo "You are playing Extreme level";
+        break;
+    
+    default:
+    echo "invalid input";    
+}  
