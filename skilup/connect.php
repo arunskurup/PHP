@@ -6,6 +6,8 @@ if($_SERVER["REQUEST_METHOD"] == 'POST' && isset($_POST['submit'])){
       $email = $_POST['email'];
       $phone = $_POST['phone'];
       $blood = $_POST['blood'];
+
+      //Sql Query
        $sql ="INSERT INTO `test` (`id`, `name`, `email`, `phone`, `bgroup`) VALUES (NULL,'$name','$email','$phone','$blood')";
    
 
