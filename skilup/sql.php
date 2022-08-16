@@ -11,7 +11,7 @@
     <div>
         <h3>Registriation form</h3>
     </div>
-    <form action="connect.php" method="post">
+    <form action="connect.php" method="POST">
         <label for="name">Name</label><br>
         <input type="text" name = "name" id="name" require ><br>
 
