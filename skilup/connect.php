@@ -19,11 +19,11 @@ if($_SERVER["REQUEST_METHOD"] == 'POST' && isset($_POST['submit'])){
       
       // Perform query
       if ($result = $mysqli -> query($sql)) {
-        if ($result) {
-                    echo"Entry Successfull";
-                  }else{
-                    echo"Error Occured";
-                  }
+         if ($result) {
+             echo"Entry Successfull";
+         }else{
+             echo"Error Occured";
+             }
         }
       
       $mysqli -> close();
