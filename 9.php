@@ -5,6 +5,8 @@
      $len = strlen($str);
      return $str[$len-1].$str.$str[$len-1];
    }
-   echo test("Red")."\n";
-   echo test("Green")."\n";
-   echo test("1")."\n";
+//    echo test("Red")."\n";
+//    echo test("Green")."\n";
+//    echo test("1")."\n";
+    $str = (string)readline('Add String : ');
+    echo test($str)."\n";
