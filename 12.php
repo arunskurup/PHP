@@ -4,7 +4,6 @@
   function test($num1,$num2)
   {
      return ($num1 < 0 && $num2 > 100) || ($num2 < 0 && $num1 > 100);
-
   }  
 
   var_dump(test(120, -1));
